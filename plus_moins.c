@@ -38,3 +38,17 @@ int plus_moins (int value)
     } while (choix_joueur != value);
 
 }
+int main()
+{
+
+        int valeur_trouver = 0, choix_joueur = 0, difficulte = 0;
+        int nombreTape =0, rejouer=0, coups =0, nombres_essaie =0, modeJeu =0, niveauJeu =0;
+	const int MAX = 100, MIN = 1;
+	srand(time(NULL));
+
+        printf("===Niveau De Difficulte===\n");
+        printf("1. Niveau facile : Entre 1 et 100\n");
+        printf("2. Niveau moyen : Entre 1 et 1000\n");
+        printf("3. Niveau difficile : Entre 1 et 10000\n");
+        scanf("%d", &difficulte);
+}	
